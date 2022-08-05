@@ -1,0 +1,10 @@
+@each $name, $value in $justify-content {
+  .jc-#{$name} {
+    justify-content: $value !important;
+  }
+}
+@each $name, $value in $align-items {
+  .ai-#{$name} {
+    align-items: $value !important;
+  }
+}
